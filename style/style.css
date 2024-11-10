@@ -1,12 +1,41 @@
+:root {
+    --chernyy: #333232;
+    --cvet-knopok-glavnyy: #2cb708;
+    --bg: #fbfbfb;
+    --belyy: #fff;
+    --oranzhevyy: #eb8528;
+    -siniy: #3e16dd;
+    --tekst-v-futere: #818181;
+    --cvet-knopki-1: #efefef;
+    --svetlo-seryy-obvodka:#eaeaea;
+    --bg-futera: #eef1f2;
+
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
+    text-decoration: none;
 }
-.contianer {
-    max-width: 1300px;
-    margin: 0 auto;
+body {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+button:hover {
+    cursor: pointer;
+    color: var(--belyy);
+    background-color: var(--cvet-knopok-glavnyy)  ;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+footer p {
+    color: var(--tekst-v-futere);
+    font-size: 14px;
     
 }
+
+
+
+
+
